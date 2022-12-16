@@ -2,8 +2,6 @@
 
 flask框架搭建的加密器，用于前端js加密的爆破
 
-
-
 ### 1 前言
 
 参考[jsEncrypter](https://github.com/c0ny1/jsEncrypter)，burp插件传输payload到*phantomjs*中启动前端加密函数对数据进行加密，但本地加密payload也是使用js，需要有一定的js基础。过程是burp传参到web，web再处理参数返回，所以使用python实现了个类似的。

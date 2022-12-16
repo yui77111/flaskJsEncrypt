@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from flask import Flask
-from flask import request
+from flask import Flask, request
 from lib.urlEncode import urlEncode
 from lib.base64Encode import base64Encode
 from lib.md5Encrypt import md5Encrypt
